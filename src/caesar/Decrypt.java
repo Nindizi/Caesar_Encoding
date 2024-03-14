@@ -12,6 +12,7 @@ public class Decrypt {
 	private static final String ENTEREDMESSAGETEXT = "Entered encrypted text message: ";
 	private static final String ENTEREDKEYWORDTEXT = "Entered keyword to decrypt with: ";
 	private static final String ENTRYERRROR = "You entered an invalid character, try again: ";
+	private static final String CHOICEPROMPT = "Will you be entering the cyper text yourself, or reading from a file?";
 	
 	public String getDecyryptedMessage() {
 		return decryptedMessage;
@@ -67,6 +68,18 @@ public class Decrypt {
 	
 	public String DecryptMessage() {
 		return "GO AT YOUR CONVENIENCE";
+	}
+	
+	private String GetText() {
+		return "XX";
+	}
+	
+	private void ApplyShift() {
+		
+	}
+	
+	private void Dechipher() {
+		
 	}
 
 }
